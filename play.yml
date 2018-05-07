@@ -1,0 +1,4 @@
+---
+- hosts: bitrix
+  roles:
+    - { role: bitrix1c, tags: bitrix1c, become: yes }

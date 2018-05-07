@@ -1,0 +1,4 @@
+---
+bitrix_testing_repo: false
+bitrix_repo: "{{ 'yum-testing' if bitrix_testing_repo else 'yum' }}"
+bitrix_repo_gpg: 'http://repos.1c-bitrix.ru/yum/RPM-GPG-KEY-BitrixEnv'
